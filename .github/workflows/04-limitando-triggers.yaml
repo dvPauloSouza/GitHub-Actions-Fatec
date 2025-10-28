@@ -2,8 +2,8 @@ name: Pipeline Experimental
 on:
   push:
     branches: # [main, develop] # será feito push na main ou na developer
-      # - main
-      - develop
+      - main
+      # - develop # o push será feito quando a branche for selecionada para commit
       # mesmo jeito só escrito de outra maneira, o push não é feito nas duas branches, somente em uma delas.
 
 jobs:
