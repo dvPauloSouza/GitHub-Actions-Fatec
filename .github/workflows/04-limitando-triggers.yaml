@@ -1,0 +1,15 @@
+name: Pipeline Experimental
+on:
+  push:
+    branches: # [main, develop] # será feito push na main ou na developer
+      # - main
+      - develop
+      # mesmo jeito só escrito de outra maneira, o push não é feito nas duas branches, somente em uma delas.
+
+jobs:
+  ci-continous-integracion:
+    name: Teste de Integração
+    runs-on: ubuntu-latest
+    steps:
+      - run: echo "Olá, Fatec!"
+      
