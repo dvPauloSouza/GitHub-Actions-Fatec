@@ -8,10 +8,10 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - run: echo "Olá, Fatec!"
-      name: Mensagem Especial
-      - uses: actions/checkout@v5:
-      name: Fazendo clone e checkout no meu repositório nesta máquina virtual
+        name: Mensagem Especial
+      - uses: actions/checkout@v5
+        name: Fazendo clone e checkout no meu repositório nesta máquina virtual
       - name: Zipar os arquivos dos meu repositório
-      run: zip -r arquivo.zip .
+        run: zip -r arquivo.zip .
       - name: Listar os arquivos do meu repositório
-      run: ls -la
+        run: ls -la
