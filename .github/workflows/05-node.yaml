@@ -9,20 +9,17 @@ jobs:
   build:
     name: Job 1 Build
     runs-on: ubuntu-latest
-    steps: 
+    steps:
       - name: Passo 1 - Task de Checkout
-        uses: actions/checkout@v5 # v5 é a versão da action e não do checkout
+        uses: actions/checkout@v5
 
       - name: Passo 2 - Task de Set up Node.js
-        uses: actions/setup-node@v3 # v3 é a versão da action e não do node
+        uses: actions/setup-node@v4
         with:
-          node-version: '16'
+          node-version: '22'
 
       - name: Passo 3 - Task de Install Dependencias
-        run: echo "npm install"
+        run: npm ci
 
-      - name: Passo 4 - Task de Run Testes
-        run: echo "npm run test"
-        
-        
-      - run: echo "Olá, Fatec!"00000000000000000000000
+      - name: Passo 4 - Task de Run Teste
+        run: npm run test
