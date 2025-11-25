@@ -1,0 +1,20 @@
+{
+  "name":"github-actions",
+  "version":"1.0.0",
+  "description": "",
+  "main": "index.js",
+  "script":{
+    "test": "echo 'Tests running...'"
+  }
+  "repository": {
+    "type":"git",
+    "url": "git+https://github.com/dvPauloSouza/GitHub-Actions-Fatec.git"
+  },
+  "keywords": [],
+  "author": "dvPauloSouza",
+  "license":"ISC",
+  "bugs": {
+    "url": "https://github.com/dvPauloSouza/GitHub-Actions-Fatec.git/issues"
+  },
+  "homepage": "https://github.com/dvPauloSouza/GitHub-Actions-Fatec.git#readme"
+}
