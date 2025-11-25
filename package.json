@@ -5,7 +5,9 @@
   "main": "index.js",
   "script":{
     "test": "echo 'Tests running...'"
-  }
+    "build": "echo 'Build running'",
+    "deploy": "echo 'Deploing na Azure Cloud'"
+  },
   "repository": {
     "type":"git",
     "url": "git+https://github.com/dvPauloSouza/GitHub-Actions-Fatec.git"
