@@ -1,9 +1,9 @@
 {
-  "name":"github-actions",
-  "version":"1.0.0",
+  "name": "github-actions",
+  "version": "1.0.0",
   "description": "",
   "main": "index.js",
-  "script":{
+  "script": {
     "test": "echo 'Tests running...'",
     "build": "echo 'Build running'",
     "deploy": "echo 'Deploing na Azure Cloud'"
