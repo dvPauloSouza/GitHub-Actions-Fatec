@@ -16,7 +16,7 @@ jobs:
       - name: Passo 2 - Task de Set up Node.js
         uses: actions/setup-node@v4
         with:
-          node-version: '22'
+          node-version: 22
 
       - name: Passo 3 - Task de Install Dependencias
         run: npm ci
