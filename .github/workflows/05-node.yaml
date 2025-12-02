@@ -7,7 +7,7 @@ on:
 
 jobs:
   testes:
-    name: Job 1 Testes
+    name: Job 1 Teste
     runs-on: ubuntu-latest
     steps:
       - name: Passo 1 - Task de Checkout
@@ -27,13 +27,13 @@ jobs:
   build:
     name: Job 2 Build
     runs-on: ubuntu-latest
-    needs: testes
+    
     steps:
       - run: echo "npm run build"
   
   deploy:
     name: Job 3 Deploy
     runs-on: ubuntu-latest
-    needs: build
+    
     steps:
       - run: echo "npm run deploy"
