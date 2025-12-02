@@ -9,12 +9,12 @@
     "deploy": "echo 'Deploing na Azure Cloud'"
   },
   "repository": {
-    "type":"git",
+    "type": "git",
     "url": "git+https://github.com/dvPauloSouza/GitHub-Actions-Fatec.git"
   },
   "keywords": [],
   "author": "dvPauloSouza",
-  "license":"ISC",
+  "license": "ISC",
   "bugs": {
     "url": "https://github.com/dvPauloSouza/GitHub-Actions-Fatec.git/issues"
   },
