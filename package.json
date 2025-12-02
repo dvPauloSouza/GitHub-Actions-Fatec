@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "script":{
-    "test": "echo 'Tests running...'"
+    "test": "echo 'Tests running...'",
     "build": "echo 'Build running'",
     "deploy": "echo 'Deploing na Azure Cloud'"
   },
