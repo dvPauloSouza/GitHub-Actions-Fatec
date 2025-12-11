@@ -4,9 +4,10 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo 'Tests running...'",
-    "build": "echo 'Build running'",
-    "deploy": "echo 'Deploing na Azure Cloud'"
+    "start": "node index.js",
+    "test": "echo \"✅ Testes executados com sucesso!\"",
+    "build": "echo \"🏗️ Simulando build do projeto...\"",
+    "deploy": "echo \"🚀 Simulando deploy para o Azure App Service...\""
   },
   "repository": {
     "type": "git",
