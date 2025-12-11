@@ -9,6 +9,7 @@ app.get('/', (req, res) => {
         <p>Este app foi publicado automaticamente no <b> Azure App Service</b> via
         <b>GitHub Actions</b>. </p>
         <p>Exemplo criado por <b>Paulo Souza</b>.</p>
+        <h1> BOA NOITE, PROFESSOR. ATÉ A PRÓXIMA!</h1>
         `);
 });
 
