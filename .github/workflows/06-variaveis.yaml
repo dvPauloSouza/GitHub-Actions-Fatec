@@ -14,6 +14,7 @@ jobs:
   
       - run: echo "Repositório ${{ github.repository }} clonado."
       - run: echo ${{ vars.kafka }}
+      - run: echo ${{ secrets.PASSWORD }}
   
       - name: Lista arquivos no repositorio
         run: |
