@@ -69,3 +69,4 @@ jobs:
           app-name: fatec-testes
           slot-name: 'Production'
           package: .
+
